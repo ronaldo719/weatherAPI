@@ -145,11 +145,9 @@ body {
 }
 
 .forcastButton {
-    position: absolute;
-    margin: 0;
+    margin-left: 42%;
+    margin-top: 1rem;
     width: 20%;
-    top: 55%;
-    left: 40%;
 }
 
 #newSearch {
