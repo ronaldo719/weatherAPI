@@ -171,7 +171,7 @@ class dataDisplay {
             if (index < 1) return;
             const dayImgUrl = value.weather_state_abbr;
             const maxTemp = Math.round(this.convertCelsiusToFahrenhiet(value.max_temp));
-            const weekDay = moment(value.applicable_date).format('dddd').substring(0, 3);
+            const weekDay = moment(value.applicable_date).format('dddd');
             this.showUpcomingData({ dayImgUrl, maxTemp, weekDay });
         })
     }
